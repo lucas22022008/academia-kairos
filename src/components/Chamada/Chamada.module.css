@@ -1,0 +1,14 @@
+.chamada {
+    text-decoration: none;
+    cursor: pointer;
+}
+.chamada button {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--var-branco);
+    padding: 8px 24px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: var(--var-destaque);
+}

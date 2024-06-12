@@ -1,0 +1,27 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    background: url('/public/imagens/caba-treinando.png') no-repeat center;
+    background-size: cover;
+}
+.home div {
+    position: absolute;
+    bottom: 0;
+    padding: 0 32px 16px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.home div h1 {
+    font-size: 3.5rem;
+}
+.home div h1 span {
+    color: var(--var-destaque);
+}
+.home div p {
+    font-size: 1.4rem;
+}
+.home div p span {
+    color: var(--var-destaque);
+}
