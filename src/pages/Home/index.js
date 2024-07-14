@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
-      <Header />
       <main className={styles.home}>
         <div>
           <h1>ACADEMIA <span>KAIRÓS</span></h1>
