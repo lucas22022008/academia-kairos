@@ -4,7 +4,8 @@
     left: 0;
     width: 100%;
     height: 70px;
-    background-color: #000005bd;
+    background: #0000001d;
+    backdrop-filter: blur(10px);
     display: flex;
     align-items: center;
     padding: 0 28px;
