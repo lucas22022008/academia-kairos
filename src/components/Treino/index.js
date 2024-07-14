@@ -1,10 +1,11 @@
+import styles from "./Treino.module.css";
 
-
-function Treino() {
+function Treino({ treino, dia }) {
     return (
-        <>
-            <h1>Irei adicionar treinos nesta parte</h1>
-        </>
+        <div className={styles.card}>
+            <h1>{ `${ treino }` }</h1>
+            <p>O treino deve ser feito { `${ dia }` }</p>
+        </div>
     );
 }
 

@@ -8,9 +8,9 @@ function Rotina() {
         <>
             <Header />
             <div className={styles.treinos}>
-                <Treino />
-                <Treino />
-                <Treino />
+                <Treino treino="Peito, Ombro e Tríceps" dia="Segunda e Quinta" />
+                <Treino treino="Bíceps e Costa" dia="Terça e Sexta" />
+                <Treino treino="Perna Completa" dia="Quarta e Sábado" />
             </div>
             <Rodape />
         </>

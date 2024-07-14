@@ -1,4 +1,3 @@
-import Header from "../../components/Header";
 import styles from "./Home.module.css";
 import Chamada from "../../components/Chamada";
 import Rodape from "../../components/Rodape";
