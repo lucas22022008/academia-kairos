@@ -1,16 +1,27 @@
 .card {
     width: 100%;
     height: 160px;
+    background: var(--var-destaque);
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0 16px;
     gap: 12px;
     border-radius: 12px;
     border: 1px solid #ffffff50;
     box-shadow: 0 12px 6px #000;
 }
-.card h1 {
+.card div {
+    display: flex;
+    flex-direction: column;
+}
+.card div h1 {
     font-size: 1.6rem;
+    color: #000;
+}
+.card div p {
+    color: #333333;
+}
+.card img {
+    width: 60px;
 }
