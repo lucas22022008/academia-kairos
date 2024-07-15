@@ -10,6 +10,7 @@ function Rotina() {
                 <p>Boa tarde NomeAluno, Esta é sua rotina de Treino!</p>
                 <Treino treino="Peito, Ombro e Tríceps" dia="Segunda e Quinta" />
                 <Treino treino="Bíceps e Costa" dia="Terça e Sexta" />
+                <Treino treino=" Pernas completo" dia="Quarta e Sábado" />
             </div>
             <Rodape />
         </>
